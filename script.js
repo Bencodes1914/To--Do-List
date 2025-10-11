@@ -6,7 +6,7 @@ addBtn.addEventListener("click", () => { // Add a click event listener to the Ad
   const taskText = input.value.trim(); // Get the user's input and remove extra spaces
 
   if (taskText === "") { // Check if the input is empty
-    alert("Please enter a task!"); // Alert the user to type something
+    alert("Please enter a task with text!"); // Alert the user to type something
     return; // Stop the code from continuing if the input is empty
   }
 
