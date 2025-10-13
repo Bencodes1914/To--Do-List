@@ -71,7 +71,7 @@ li {
 
 li.completed {
   text-decoration: line-through;
-  color: #aaa;
+  color: #9ca3af;
 }
 
 .delete-btn {
