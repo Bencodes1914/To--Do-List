@@ -104,3 +104,72 @@ h1{
     background: rgb(47, 47, 216);
     color: white;
 }
+
+.main{
+    display:grid;
+    grid-template-columns:1fr 360px;
+    gap:18px;
+    margin-top:18px;
+}
+
+.results{
+    display:grid;
+    gap:12px;
+}
+
+.card{
+    background:#fff;
+    border-radius:12px;
+    padding:12px;
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+    box-shadow:0 6px 18px rgba(15,23,42,0.04);
+}
+
+.thumb{
+    width:180px;
+    height:120px;
+    border-radius:10px;
+    background:linear-gradient(180deg,#e6f6ff,#d8f0ff);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#6b7280;
+    font-weight:600;
+}
+
+.card-body{
+    flex:1;
+}
+
+.title{
+    font-weight:700;
+    margin:0;
+}
+
+.meta{
+    color:#6b7280;
+    font-size:13px;
+    margin-top:6px;
+}
+
+.price{
+    font-weight:700;
+    color:#0ea5e9;
+    font-size:18px;
+}
+
+.actions{
+    display:flex;
+    gap:8px;
+    margin-top:10px;
+}
+
+.btn-ghost{
+    background:transparent;
+    border:1px solid #e6eef7;
+    padding:8px 10px;
+    border-radius:10px;
+    cursor:pointer;
+}
