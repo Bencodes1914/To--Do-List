@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StayFinder — Discover, Compare & Book Stays Instantly</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="brand">
+                <div class="logo">SF</div>
+                <div>
+                    <h1>StayFinder</h1>
+                    <div class="tag">Find & compare hotels, Airbnbs and rentals</div>
+                </div>
+            </div>
+            <div>
+                <button class="btn" onclick="document.getElementById('signup').scrollIntoView({behavior:'smooth'})">Get Early Access</button>
+            </div>
+       </header>
+        <div class="search-card">
+            <div class="search-grid">
+                <input id="destination" class="input" placeholder="Where are you going? (city, area or landmark)" />
+                <input id="checkin" class="input" type="date" />
+                <input id="checkout" class="input" type="date" />
+                <select id="guests" class="input">
+                    <option value="1">1 guest</option>
+                    <option value="2">2 guests</option>
+                    <option value="3">3 guests</option>
+                    <option value="4">4 guests</option>
+                    <option value="5 or more">5 or more</option>
+                </select>
+                <button class="btn" onclick="search()">Search</button>
+            </div>
+            <div class="filters">
+                <div class="chip">Price</div>
+                <div class="chip">Rating</div>
+                <div class="chip">Amenities</div>
+                <div class="chip">Distance</div>
+            </div>
+        </div>
+    </body>
+    <script src="scripts.js"></script>
+</html>

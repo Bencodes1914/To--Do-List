@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#f6f9fb;
+    color:#0f172a;
+}
+
+body{
+    max-width: 1200px;
+    margin:28px auto;
+    padding:20px;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+}
+
+.brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo{
+    width:48px;
+    height:48px;
+    border-radius:10px;
+    background:linear-gradient(135deg,#0ea5e9,#1a73e8);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-weight:700;
+}
+
+h1{
+    font-size:18px;
+    margin:0;
+}
+
+.tag{
+    color:#6b7280;
+    font-size:13px;
+}
+
+.btn{
+    padding:12px 14px;
+    border-radius:10px;
+    border:0;
+    background:#0ea5e9;
+    color:#fff;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.search-card{
+    background:#fff;
+    border-radius:12px;
+    padding:18px;
+    margin-top:18px;
+    box-shadow:0 6px 18px rgba(15,23,42,0.06);
+}
+
+.search-grid{
+    display:grid;
+    grid-template-columns:1fr 220px 120px 120px 120px;
+    gap:12px;
+    align-items:center;
+}
+
+.input{
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #e6eef7;
+    background:#fff;
+}
+
+.filters{
+    display:flex;
+    gap:8px;
+    align-items:center;
+    margin-top:12px;
+}
+
+.chip{
+    padding:8px 10px;
+    border-radius:999px;
+    border:1px solid #e6eef7;
+    background:#fff;
+    font-size:13px;
+    cursor: pointer;
+}
+
+.chip:hover{
+    background: rgb(47, 47, 216);
+    color: white;
+}
